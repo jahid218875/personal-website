@@ -1,0 +1,154 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top-area{
+    padding: 0 80px;
+    background-color: #ffffff;
+    height: 1400px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.hello-text{
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #363958;
+    margin-top: 180px;
+    font-weight: 700;
+}
+.name-highlight{
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #ff8367;
+    font-weight: 700;
+    margin-top: -50px;
+}
+.menu{
+    text-align: end;
+    padding-top: 20px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #3C3C3C;
+    font-weight: 700;
+    font-size: 14px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #363958;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+}
+p{
+    color: #3E3E3E;
+    font-size: 14px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    background-image: linear-gradient(45deg, #f6a390, #f15050);
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.icon{
+    padding: 0 10px;
+}
+.Project-area{
+    background-color: #F8F9FC;
+    padding: 30px 80px;
+    height: 600px;
+}
+.Project-area .card h2{
+    color: #363958;
+    font-size: 20px;
+}
+.Project-area .card{
+    float: left;
+    width: 25%;
+    margin: 0 15px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px grey;
+}
+.Project-area .card img{
+    width: 100%;
+}
+#latest{
+    color: #F46060;
+}
+.project-heading{
+    color: #363958;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer-area{
+    width: 100%;
+    height: 500px;
+}
+.footer-top{
+    background-image: url(asset/shapes/shape.png);
+    width: 800px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.footer-heading{
+    position: absolute;
+    color: white;
+    top: 80px;
+    left: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.footer-top .btn{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+}
+.footer-bottom h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: dimgray;
+    margin-top: 80px;
+}
+.footer-bottom .mail{
+    font-size: 30px;
+    color: #363958;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.social-icon{
+    text-align: center;
+}
+.social-icon img{
+    width: 40px;
+    margin: 0 8px;
+}
